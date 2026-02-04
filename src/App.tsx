@@ -29,6 +29,7 @@ function App() {
 
     const handleAddTodo = (e: React.MouseEvent) => {
         e.preventDefault();
+        if (title.trim() === "") return;
         setTodos([
             ...todos,
             {
