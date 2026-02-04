@@ -55,11 +55,15 @@ function App() {
     return (
         <>
             <main className="min-h-screen min-w-screen bg-gradient-to-br from-gray-800 to-gray-800 px-50 text-white">
+                <head>
+                    <title>Todoroki</title>
+                    <meta name="description" content="A simple todo app" />
+                </head>
                 <header className="sticky items-center top-0 z-50 py-10">
                     <div className="hidden w-full gap-5 lg:flex lg:items-center lg:justify-between">
                         <div className="flex items-center justify-between gap-[109px] w-full">
                             <h1 className="text-4xl font-bold text-white">
-                                Todo
+                                Todoroki
                             </h1>
                             <button
                                 className="rounded-md bg-gray-300 px-4 py-2 text-sm text-black font-bold transition hover:bg-gray-100 hover:-translate-y-1 hover:scale-110 duration-300 ease-in-out"
