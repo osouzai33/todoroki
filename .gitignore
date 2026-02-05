@@ -27,8 +27,6 @@ dist-ssr
 # Dependency directories
 node_modules/
 .firebase/
-.firebaserc
-firebase.json
 *.cache
 
 *.secret.json
