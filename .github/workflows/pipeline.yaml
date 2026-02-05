@@ -85,9 +85,6 @@ jobs:
               run: |
                   echo ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }} | base64 --decode > $HOME/private-key.json
 
-            - name: Change to project directory
-              run: cd todo
-
             - name: Deploy Firebase
               run: |
                   export GOOGLE_APPLICATION_CREDENTIALS="$HOME/private-key.json"
